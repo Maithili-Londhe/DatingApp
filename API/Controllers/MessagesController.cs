@@ -40,7 +40,7 @@ namespace API.Controllers
                   if(recipient == null) return NotFound();
 
                   var message = new Message  
-                  {
+                  { 
                       Sender =sender,
                       Recipient = recipient,
                       SenderUsername = sender.UserName,
